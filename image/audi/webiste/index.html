@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Audi Car Website</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app_start.css" />
+      <link rel="stylesheet" href="css/car.css" />
+     <link rel="stylesheet" href="css/menu.css" />
+      <script src="greensock/src/minified/TweenMax.min.js"></script>
+       <script src="js/TweenMax.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<link type="text/css" rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="row small-12 medium-12 large-12 columns">
+	<video id="vid" controls class="show">
+    	<source src="video/final_car_intro.mp4" type="video/mp4" >
+        <source src="video/final_car_intro.ogv" type="video/mp4">
+    </video></div>
+    <div id="webApp" class="hide2">
+    
+  <h1 class="hidden">Audi Car Website 2016</h1> 
+   <!-- ========================================================
+                      Header Starts Here
+   ======================================================== */ -->
+
+  <header id="menuBg"><h2 class="hidden">Audi Nav bar</h2> 
+      <div data-hide-for="large" data-responsive-toggle="main-menu" class="title-bar">
+          <button data-toggle="" type="button" class="menu-icon float-right"></button>
+      </div>
+      
+      <nav id="main-menu" class="row"><h2 class="hidden">Main Navigation</h2> 
+          <ul id="mainNav" class="small-12 medium-12 large-12">
+              <li><a href="home.html"><img src="img/Audi_AG_logo%20copy.png" width="70" alt="image"></a></li>
+              <li><a id="1" href="#">Home</a></li>
+              <li><a id="2" href="#">Virtual Tour</a></li>
+              <li><a id="3" href="#">Specification</a></li>
+              <li><a id="4" href="#">Car Parts</a></li>
+              <li><a id="5" href="#"><span>Reach To Us</span></a></li>
+          </ul>
+      </nav>
+  </header>
+   <!-- ========================================================
+                      Header Ends Here
+   ======================================================== */ -->
+
+      
+      
+      
+      <!-- ========================================================
+                      MainContentArea  Starts Here
+   ======================================================== */ -->
+      
+      
+      <!-- Image Car banner with color picker Starts Here-->
+      
+    
+      
+      
+    <section  id="section1" class="banner-top ng-scope hideForSmall"><h2 class="hidden">Car Image Slider</h2>
+        <div  id="bannerBG"  class="hero hero-top hero-pw ng-scope" >
+             <div class="row" >
+                <div class="medium-4 medium-offset-4 columns">
+                    <div class="hero-caption"><br><br>
+                    <img id="btn1" src="img/black.jpg" class="hotspot dot1">
+                         <img id="btn2" src="img/black.jpg" class="hotspot dot2">
+                         <img id="btn3" src="img/black.jpg" class="hotspot dot3">
+                        
+                        <div id="box1">
+                            <img src="img/hoverPic1.jpg" alt="image" class="himage thumbnail">
+                            <p class="hovertext">In Audi R8, completely new look of front headlights with catch and sporty look which include four side bulb in each that throws lights in all direction towards front things.</p>
+                        </div>
+                         <div id="box2">
+                              <img src="img/hoverPic2.jpg" alt="image" class="himage thumbnail">
+                             <p class="hovertext">In Audi R8, 4 mm thick with smart grip tires are one more attractive thing which takes more attention from audiance.These tires are all in one, means we can use same tires in all weather situations.</p>
+                        </div>
+                         <div id="box3">
+                              <img src="img/hoverPic3.jpg" alt="image" class="himage thumbnail">
+                             <p class="hovertext">Fully atumatd mirroe which has motion and trafic control on side that gives signals to open or close according to space and car on/off situaltions.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="large-centered columns">
+                    <div class="hero-caption"><br><br>
+                        <img src="img/LogoR8.png" alt="image"><br>
+                        <p class="slidertext">Adventure awaits, and the 2017 Audi R8 is ready to go. Packed with exciting in-cabin technologies, outfitted with advanced safety features, powered by an energetic and efficient 2.5L engine, and full of versatile potential, R8 is your partner in play.
+                        </p>
+                        <img src="img/audi_PNG1742.png" alt="mainBanner_image" id="imageCar" >
+                        <nav><h2 class="hidden">Nav for car color picker</h2>
+                            <ul id="thumb">
+                                <li><button id="blueCAR"></button></li>
+                                <li><button id="redCAR"></button></li>
+                                <li><button id="blackCAR"></button></li>
+                                <li><button id="greyCAR"></button></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section> 
+      
+      <section class="orbitM"><h2 class="hidden"> Main Image Image For Mobile</h2>
+          <ul class="orbit-container hideForLarge" tabindex="0" style="height: 474.367px;">
+              <li class="orbit-slide is-active" data-slide="3" style="position: relative; max-height: 474.367px; top: 0px; display: block;" aria-live="polite">
+                <img src="img/bgBannerMobile1.jpg" alt="image">
+              </li>
+          </ul>
+      </section>
+      
+      
+      
+      
+      
+      
+      <!-- Image Car banner with color picker Ends Here-->
+      
+      
+      
+      
+      
+      <!-- about audi r8 car starts here-->
+      
+      <div class="row large-10 large-offset-1 columns marginOrbit">
+          <section id="section2" class="row"><h2 class="hidden">About Audi R8 and Video </h2>
+              <div class="medium-6 columns medium-push-6"><br><br>
+                  <video width="425" height="240" controls class="thumbnail">
+                      <source src="video/final_car_intro.mp4" type="video/mp4">
+                      <source src="video/final_car_intro.ogv" type="video/ogg">
+                  </video>
+              </div>
+              <div class="medium-6 large-6 columns medium-pull-6" style="text-align: left;">
+                  <img src="img/audiR8.png" alt="titleImage">
+                  <p class="textVideo"><br>For the past 16 years, Audi has been a dominating force at the most prestigious endurance race in Europe – 24 Hours of Le Mans. One of the innovations that pushed Audi into the winner’s circle was the premiere of laser lights. During the late-night hours of Le Mans, laser lights gave the Audi team drivers the added advantage of being able to see more with a light that was further reaching and more intense.
+                      <br><br>
+                  This advanced lighting upgrade comes standard in the 2017 Audi R8 V10 plus Coupé.</p>
+                  <button class="btnBG">WATCH VIDEO</button>
+              </div>
+          </section>
+      </div>
+      
+      
+      <!-- about audi r8 car ends here-->
+      
+      
+      
+      
+      
+      <!-- spesification about car starts here -->
+      <section id="section3" class="row large-8 large-offset-2 marginTop">
+          <h2 class="hidden">About Audi R8 and Video </h2>
+                <div class="row small-up-2 medium-up-4 large-up-4">
+                    <section class="column"><h3 class="hidden">Icon Fuel </h3>
+                        <p><img alt="icon" src="img/fuel-icon-5.png"></p>
+                        <h5 class="spesT">FUEL</h5>
+                        <p class="spesP">10.0/7.8 <br>
+                        (City/Hwy)</p>
+                    </section>
+                    <section class="column"><h3 class="hidden">Icon Engine </h3>
+                        <p><img alt="icon" src="img/engine-.png"></p>
+                        <h5 class="spesB">ENGINE</h5>
+                        <p class="spesP">2.5 Litre <br>
+                        4 Cylinder</p>
+                    </section>
+                    <section class="column"><h3 class="hidden">Icon Horsepower </h3>
+                        <p><img alt="icon" src="img/ICON_HROSEPOWER.png" width="88"></p>
+                        <h5 class="spesT">HORSEPOWER</h5>
+                        <p class="spesP">176 hp <br>
+                            @ 6,000rpm</p>
+                    </section>
+                    <section class="column"><h3 class="hidden">Icon Seat </h3>
+                        <p>
+                            <img alt="icon" src="img/ICON-seat.png">
+                        </p>
+                        <h5 class="spesB">SEAT</h5>
+                        <p class="spesP">5<br>Seats
+                        </p>
+                    </section>
+          </div>
+      </section>
+      
+      <!-- spesification about car ends here -->
+      
+       <!-- Image Car banner with color picker Starts Here-->
+      
+<section  class="banner-top ng-scope hideForSmall"><h2 class="hidden">Car Parts Slider</h2>
+    <div id="bannerBG2"  class="hero hero-top hero-pw ng-scope" >
+        <div class="row">
+            <div class="large-centered columns">
+                <article class="hero-caption"><h5 class="spesB banner2Margin" >Innvoative Design</h5>
+                    <p class="slidertext">The Audi Configurator allows you to design and build your perfect Audi. To ensure that your car specifically caters to your lifestyle you can select your model, choose your engine and browse through our range of colours, wheels, upholstery and more.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<section class="orbitM"><h2 class="hidden"> Parts Image For Mobile</h2>
+          <ul class="orbit-container hideForLarge marginOrbit" tabindex="0" style="height: 474.367px;">
+              <li class="orbit-slide is-active" data-slide="3" style="position: relative; max-height: 474.367px; top: 0px; display: block;" aria-live="polite">
+                <img src="img/inno.jpg" alt="image">
+              </li>
+          </ul>
+      </section>
+      <!-- Image Car banner with color picker Ends Here-->
+      
+      
+       
+      <!-- about audi r8 car starts here-->
+<div class="row large-10 large-offset-1 columns marginOrbit">
+<section id="section4" class="row"><h2 class="hidden">Car Inner info </h2>
+    <div class="medium-4 medium-offset-1 columns "><br><br>
+        <div class="row small-up-1 medium-up-1 large-up-2">
+            <div class="column">
+                <p>
+                    <img alt="icon" src="img/spyder%20wheel.png" width="200" >
+               </p>
+            </div><br><br>
+            <section class="column"><h3 class="hidden">Car Wheel Details</h3>
+                <h5 class="spesT "><i>SPYDER</i>
+                    <span class="spesP">WHEEL<br></span>
+                </h5>
+            </section>
+        </div>
+        <br><br>
+        <div class="row small-up-1 medium-up-1 large-up-2">
+            <div class="column">
+                <p>
+                    <img alt="icon" src="img/raer%20led%20light.png" width="200" >
+                </p>
+            </div>
+            <section class="column"><h3 class="hidden">Car Rear Lights Details</h3>
+                <h5 class="spesT "><i>REAR LED</i> 
+                    <span class="spesP">LIGHTS<br>
+                    </span>
+                </h5>
+            </section>
+        </div> 
+    </div>
+    <section class="medium-6 medium-offset-1 columns " style="text-align: left;">
+        <h2 class="spesB" style="text-align:center;">Unique Engineering<br>
+        </h2>
+        <img src="img/unique.jpg" alt="image" class="thumbnail" ><br>
+        <p >The Audi Configurator allows you to design and build your perfect Audi. To ensure that your car specifically caters to your lifestyle you can select your model, choose your engine and browse through our range of colours, wheels, upholstery and more.</p>
+    </section>
+</section>
+</div>
+      <!-- about audi r8 car ends here-->
+      
+      
+      
+      <!-- contact form starts here-->
+      
+      <br><br><br><br><br>
+      <div class="row large-10 large-offset-1 columns">
+          <section id="section5" class="row"><h2 class="hidden">About Audi R8 Contact Info </h2>
+              <section class="medium-6  columns " style="text-align: left;"><h3 class="hidden">About Audi R8 Contact Form </h3>
+                  <input type="text" placeholder="Enter Your Name">
+                  <input type="text" placeholder="Enter Your Email Address">
+                  <input type="text" placeholder="Enter Your Website URL">
+                  <input type="text"  class="heightP" placeholder="Enter Your Message">
+                  <button class="btnBG2">SUBMIT</button>
+              </section>
+              <section class="medium-6 columns "><h3 class="hidden">About Audi R8 Contact Information </h3><br><br>
+                  <img src="img/contact_car_logo.png" alt="image"><br><br><br>
+                  <p class="contact"><b>Contact Me:</b> 226 238 8284<br>
+                      <b>Email Me:</b> m_parkara@fanshaweonline.ca<br><br>
+                      <b>Follow Us:</b> Facebook / Twiiter / Drbibble / Flicker</p>
+              </section>
+          </section>
+      </div>
+      
+      
+       <!-- contact form ends here-->
+      
+      
+      
+       <!-- ========================================================
+                      MainContentArea  Ends Here
+   ======================================================== */ -->
+
+      
+      
+      
+      
+       <!-- ========================================================
+                      Footer Starts Here
+   ======================================================== */ -->
+      <footer><h2 class="hidden">Website Footer  </h2>
+          <br><br><br><br>
+          <div class="row expanded callout secondary"><br><br>
+              <div class="large-4 columns" style="text-align:left;">
+                  <img src="img/audi.png" alt="image" width="85">
+                  <p class="footerText">AUDI is the world's market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.The company was founded by Kiichiro  in 1937, as a spinoff from his father's company AUDI Industries to create automobiles</p>
+              </div>
+    
+    
+              <div class="large-4 columns" style="text-align:left;">
+                  <p class="footerTextTitle"><b>TWITTER WIDGET</b></p>
+                  <p class="footerText"><span style="color:#fff;">@ericafustero</span> car is having multile colors which lokks cool.<span style="color:#fff;">@audi</span></p>
+                  <p class="footerText">19 days ago</p> 
+                  <p class="footerText"><span style="color:#fff;">@roymarvelous</span> You can visit nearest showrom for testdrive before launiching..:P<span style="color:#fff;">@audi R8</span></p>
+                  <p class="footerText">21 days ago</p> 
+              </div>
+    
+              <div class="large-4 columns">
+                  <h3 class="footerTextTitle"><b>GALLERY</b></h3>
+                  <div class="row small-up-2 medium-up-3 large-up-3">
+                      <div class="column">
+                          <img alt="image" src="img/t1.png" class="thumbnail">
+                      </div>
+                      <div class="column">
+                          <img alt="image" src="img/t2.png" class="thumbnail">
+                      </div>
+                      <div class="column">
+                          <img alt="image" src="img/t3.png" class="thumbnail">
+                      </div>
+                      <div class="column">
+                          <img alt="image" src="img/t4.png" class="thumbnail">
+                      </div>
+                      <div class="column">
+                          <img alt="image" src="img/t5.png" class="thumbnail">
+                      </div>
+                      <div class="column">
+                          <img alt="image" src="img/t6.png" class="thumbnail">
+                      </div>
+                  </div>
+              </div>
+              <br>
+              <hr>
+              <div class="large-4 columns" style="text-align:left;">
+                  <input type="image" src="img/NewsletterSignup.png" alt="imageNewsLetter" >
+              </div>
+    
+              <div class="large-4 columns large-offset-4">
+                  <section style="display:inline;"><h3 class="hidden">Social Media Icons</h3>
+                      <a href="https://www.facebook.com/">  <img alt="image" src="img/Facebook.png" ></a>
+                      <a href="https://twitter.com/">    <img alt="image" src="img/Twitter.png"></a>
+                      <a href="https://plus.google.com/"><img alt="image" src="img/G+.png" ></a>
+                      <a href="https://www.linkedin.com/"><img alt="image" src="img/Linkedin.png" ></a>
+                      <a href="https://www.flickr.com/"><img alt="image" src="img/Flickr.png" ></a>
+                  </section>
+              </div>
+          </div>
+
+          <div class="row expanded footerBG">
+              <div class="medium-6 columns">
+                  <nav><h3 class="hidden">Copyrights Info</h3>
+                      <ul class="menu">
+                          <li><a href="#"><img src="img/contact_car_logo.png" width="75" alt="image"></a></li>
+                          <li class="footerText">Copyright © audi 2016. 
+                              All Rights Reserved
+                          </li>
+
+                      </ul>
+                  </nav>
+              </div>
+              <div class="medium-6 columns">
+                  <nav><h3 class="hidden">Footer Nav</h3>
+                      <ul class="menu align-right">
+                          <li class="footerText2">Home / Support / Terms and Conditions / Faqs / Contact us</li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      
+      </footer> 
+      
+
+
+       <!-- ========================================================
+                      Footer Ends Here
+   ======================================================== */ -->
+      
+      <script src="js/car360.js"></script>
+      <script src="js/vendor/jquery.min.js"></script>
+      <script src="js/vendor/what-input.min.js"></script>
+      <script src="js/foundation.min.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/vid.js."></script>
+    
+    
+    
+    
+    
+    </div><!--Add and remove class on webApp and vid-->
+   
+<script src="js/vid.js"></script>
+</body>
+</html>

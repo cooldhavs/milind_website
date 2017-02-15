@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.hide2 {
+	display: none;	
+}
+
+.show {
+	display: block;	
+    width: 100%;
+}
+
+#webApp {
+	
+}
